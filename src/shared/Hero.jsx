@@ -15,10 +15,11 @@ const Hero = () => {
                 </div>
 
                 <div className="absolute bottom-0 w-8/12 bg-gray-50 bg-opacity-80 flex justify-center rounded-t-2xl">
-                    <fieldset className="fieldset p-4 w-3/12">
-                        <legend className="fieldset-legend font-semibold">What is your name?</legend>
-                        <input type="text" className="input border border-gray-300 rounded p-2 w-full" placeholder="Search by location" />
-                        <p className="label text-sm text-gray-700 mt-1">Optional</p>
+                    <fieldset className="fieldset p-4 flex">
+                        <input type="text" placeholder="neutral" className="input input-neutral" />
+                        <input type="text" placeholder="Primary" className="input input-primary" />
+                        <input type="text" placeholder="Secondary" className="input input-secondary" />
+                        <input type="text" placeholder="Accent" className="input input-accent" />
                     </fieldset>
                 </div>
 
