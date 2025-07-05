@@ -93,7 +93,7 @@ const Home = () => {
 
 
                     <div className='grid grid-cols-2 grid-rows-2'>
-                        <div className="card bg-linear-to-b from-cyan-50 to-blue-100 card-lg shadow-sm text-left col-span-2 row-span-2 relative">
+                        <div className="card bg-linear-to-b from-cyan-50 to-blue-200 card-lg shadow-sm text-left col-span-2 row-span-2 relative">
                             <div className="card-body justify-center">
                                 <img src={featurePhoto} alt="" />
                                 <div className='bg-base-100 p-4 w-6/12 rounded-lg absolute bottom-[-30px] left-56'>
@@ -104,9 +104,87 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
+
+
+            <section className='bg-[#100A55] p-10 py-20'>
+
+                <div className='w-11/12 mx-auto'>
+                    <div className='flex justify-between'>
+                        <div>
+                            <h3 className='text-blue-400'>Our Services</h3>
+                            <h2 className='text-white text-2xl'>We Provide Services for You.</h2>
+                        </div>
+
+
+                        <div className='w-5/12'>
+                            <p className='text-white'>Explore our comprehensive services, meticulously crafted to enhance property value and streamline management.</p>
+                            <button className='btn bg-amber-500 rounded-4xl my-6 border-0'>View All Service</button>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <div className="card  shadow-sm grid grid-cols-3 gap-8 my-6">
+                            <div className="card-body bg-[#034078] rounded-2xl">
+                                <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
+                                <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
+
+                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                            </div>
+
+
+
+                            <div className="card-body bg-[#034078] rounded-2xl">
+                                <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
+                                <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
+
+                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                            </div>
+
+
+
+                            <div className="card-body bg-[#034078] rounded-2xl">
+                                <h2 className="card-title text-white">Guest Communication & Booking Management</h2>
+                                <p className='text-gray-100 text-sm'>Our team is available to handle all aspects of guest communication, from initial inquiries to post-checkout feedback. We ensure timely, professional responses to all.</p>
+
+                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='grid grid-cols-4 text-white text-center mt-20'>
+                        <div>
+                            <h2 className='text-4xl'>99<span className='text-[#64b5f6]'>%</span></h2>
+                            <p className='text-xs'>Customer Satisfaction</p>
+                        </div>
+
+
+                        <div>
+                            <h2 className='text-4xl'>06<span className='text-[#64b5f6]'>Y</span></h2>
+                            <p className='text-xs'>Customer Satisfaction</p>
+                        </div>
+
+
+                        <div>
+                            <h2 className='text-4xl'>35<span className='text-[#64b5f6]'>+</span></h2>
+                            <p className='text-xs'>Customer Satisfaction</p>
+                        </div>
+
+
+                        <div>
+                            <h2 className='text-4xl'>1.5K<span className='text-[#64b5f6]'>+</span></h2>
+                            <p className='text-xs'>Customer Satisfaction</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
 
         </div>
     );

@@ -35,7 +35,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="">Login</a>
+        <a className="cursor-pointer">Login</a>
         <a className="btn mx-2 rounded-4xl text-indigo-600">Register</a>
       </div>
     </div>
