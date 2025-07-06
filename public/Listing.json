@@ -1,0 +1,1354 @@
+
+
+[
+  {
+    "title": "Luxury Guesthouse – 4Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$93.94 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Modern House – 3Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 6,
+    "Last minute": "$64.18 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Elegant Bungalow – 4Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$70.02 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Quiet Villa – 3Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$77.85 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Elegant House – 2Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 3,
+    "Last minute": "$81.53 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Bright Condo – 3Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$98.69 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Luxury Guesthouse – 3Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 5,
+    "Last minute": "$59.72 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Rustic Loft – 1Bdrms",
+    "location": "Boston, Suffolk County, Massachusetts, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$78.19 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Charming Condo – 2Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$84.10 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  },
+  {
+    "title": "Modern Villa – 3Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$92.67 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Spacious Guesthouse – 5Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 5,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$60.32 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Elegant Bungalow – 3Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$91.74 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Rustic Guesthouse – 2Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$72.48 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Quiet Loft – 1Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$86.13 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+  {
+    "title": "Bright Condo – 2Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$98.56 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Beautiful Apartment – 3Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 5,
+    "Last minute": "$79.33 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Cozy Villa – 4Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$88.67 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Charming Suite – 2Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$71.24 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Spacious Loft – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$67.75 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Quiet Bungalow – 1Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$61.92 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+{
+    "title": "Modern Loft – 2Bdrms",
+    "location": "Boston, Suffolk County, Massachusetts, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$82.41 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Luxury Villa – 3Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$90.55 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Elegant Cottage – 4Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$58.67 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Rustic Residence – 3Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$96.88 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Bright Apartment – 2Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$74.20 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Charming Condo – 1Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$85.13 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Quiet House – 3Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$66.49 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Rustic Cottage – 2Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$91.05 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Luxury Suite – 1Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$89.31 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Cozy Condo – 2Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$60.76 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+{
+    "title": "Elegant Loft – 2Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$92.88 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Spacious Residence – 4Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$63.20 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Bright Guesthouse – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$78.34 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Luxury Apartment – 2Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$73.59 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Modern House – 3Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$98.06 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Cozy Bungalow – 2Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$68.72 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+  {
+    "title": "Quiet Suite – 1Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$61.23 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Spacious Condo – 3Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$94.55 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Rustic House – 2Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$76.91 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Charming Cottage – 1Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$65.09 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Elegant Residence – 3Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$95.18 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Luxury Condo – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$69.37 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Cozy Suite – 1Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$87.41 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Modern Guesthouse – 4Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$99.88 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Charming Loft – 2Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$62.77 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Rustic Villa – 3Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$73.21 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Bright Cottage – 2Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$84.96 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Quiet Apartment – 1Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$55.66 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Beautiful Bungalow – 4Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$97.74 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Spacious Suite – 2Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$66.48 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  },
+  {
+    "title": "Luxury Bungalow – 3Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$88.44 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Rustic Suite – 2Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$61.89 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Spacious Guesthouse – 4Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$97.20 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Modern Condo – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$68.79 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Elegant Apartment – 2Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$71.60 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+  {
+    "title": "Cozy Loft – 1Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$53.92 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Bright Cottage – 3Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$85.77 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Luxury House – 4Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$96.35 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Quiet Residence – 2Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$64.22 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Rustic Condo – 3Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$80.40 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Stylish Apartment – 2Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$72.88 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+  {
+    "title": "Modern Loft – 1Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$59.23 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Quiet Bungalow – 3Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$93.76 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Elegant Suite – 2Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$88.05 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Cozy Condo – 2Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$61.30 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Luxury Townhome – 4Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$94.99 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Bright Studio – 1Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$57.11 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Rustic Guesthouse – 3Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$79.45 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Modern House – 2Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$68.67 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Elegant Cottage – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$85.22 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Charming Villa – 4Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$97.88 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Cozy Residence – 3Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$72.34 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Modern Apartment – 2Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$69.66 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Bright Loft – 1Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$52.10 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Elegant Guesthouse – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$91.25 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  },
+    {
+    "title": "Luxury Guesthouse – 4Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$93.94 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Modern House – 3Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 6,
+    "Last minute": "$64.18 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Elegant Bungalow – 4Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$70.02 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Quiet Villa – 3Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$77.85 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Elegant House – 2Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 3,
+    "Last minute": "$81.53 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Bright Condo – 3Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$98.69 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Luxury Guesthouse – 3Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 5,
+    "Last minute": "$59.72 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Rustic Loft – 1Bdrms",
+    "location": "Boston, Suffolk County, Massachusetts, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$78.19 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Charming Condo – 2Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$84.10 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  },
+  {
+    "title": "Modern Villa – 3Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$92.67 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Spacious Guesthouse – 5Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 5,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$60.32 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Elegant Bungalow – 3Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$91.74 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Rustic Guesthouse – 2Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$72.48 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Quiet Loft – 1Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$86.13 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+  {
+    "title": "Bright Condo – 2Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$98.56 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Beautiful Apartment – 3Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 3,
+    "bath": 1,
+    "Guests": 5,
+    "Last minute": "$79.33 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Cozy Villa – 4Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$88.67 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Charming Suite – 2Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$71.24 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Spacious Loft – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$67.75 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Quiet Bungalow – 1Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$61.92 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+{
+    "title": "Modern Loft – 2Bdrms",
+    "location": "Boston, Suffolk County, Massachusetts, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$82.41 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Luxury Villa – 3Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$90.55 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Elegant Cottage – 4Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$58.67 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Rustic Residence – 3Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$96.88 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Bright Apartment – 2Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$74.20 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Charming Condo – 1Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$85.13 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Quiet House – 3Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$66.49 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Rustic Cottage – 2Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$91.05 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Luxury Suite – 1Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$89.31 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Cozy Condo – 2Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$60.76 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+{
+    "title": "Elegant Loft – 2Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$92.88 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Spacious Residence – 4Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$63.20 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Bright Guesthouse – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$78.34 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Luxury Apartment – 2Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$73.59 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Modern House – 3Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$98.06 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Cozy Bungalow – 2Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$68.72 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+  {
+    "title": "Quiet Suite – 1Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$61.23 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Spacious Condo – 3Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$94.55 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Rustic House – 2Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$76.91 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Charming Cottage – 1Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$65.09 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Elegant Residence – 3Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$95.18 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Luxury Condo – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$69.37 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Cozy Suite – 1Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$87.41 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Modern Guesthouse – 4Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$99.88 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Charming Loft – 2Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$62.77 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Rustic Villa – 3Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$73.21 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Bright Cottage – 2Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$84.96 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Quiet Apartment – 1Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$55.66 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Beautiful Bungalow – 4Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$97.74 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Spacious Suite – 2Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 2,
+    "bath": 2,
+    "Guests": 4,
+    "Last minute": "$66.48 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  },
+  {
+    "title": "Luxury Bungalow – 3Bdrms",
+    "location": "Seattle, King County, Washington, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$88.44 / Last minute",
+    "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
+  },
+  {
+    "title": "Rustic Suite – 2Bdrms",
+    "location": "San Francisco, San Francisco County, California, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$61.89 / Last minute",
+    "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
+  },
+  {
+    "title": "Spacious Guesthouse – 4Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 4,
+    "bath": 2,
+    "Guests": 6,
+    "Last minute": "$97.20 / Last minute",
+    "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
+  },
+  {
+    "title": "Modern Condo – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$68.79 / Last minute",
+    "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+  },
+  {
+    "title": "Elegant Apartment – 2Bdrms",
+    "location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$71.60 / Last minute",
+    "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
+  },
+  {
+    "title": "Cozy Loft – 1Bdrms",
+    "location": "Denver, Denver County, Colorado, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$53.92 / Last minute",
+    "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
+  },
+  {
+    "title": "Bright Cottage – 3Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$85.77 / Last minute",
+    "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+  },
+  {
+    "title": "Luxury House – 4Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$96.35 / Last minute",
+    "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+  },
+  {
+    "title": "Quiet Residence – 2Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$64.22 / Last minute",
+    "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
+  },
+  {
+    "title": "Rustic Condo – 3Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$80.40 / Last minute",
+    "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
+  },
+  {
+    "title": "Stylish Apartment – 2Bdrms",
+    "location": "Chicago, Cook County, Illinois, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$72.88 / Last minute",
+    "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
+  },
+  {
+    "title": "Modern Loft – 1Bdrms",
+    "location": "Los Angeles, Los Angeles County, California, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$59.23 / Last minute",
+    "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
+  },
+  {
+    "title": "Quiet Bungalow – 3Bdrms",
+    "location": "Orlando, Orange County, Florida, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$93.76 / Last minute",
+    "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
+  },
+  {
+    "title": "Elegant Suite – 2Bdrms",
+    "location": "Houston, Harris County, Texas, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$88.05 / Last minute",
+    "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
+  },
+  {
+    "title": "Cozy Condo – 2Bdrms",
+    "location": "Miami, Miami-Dade County, Florida, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$61.30 / Last minute",
+    "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
+  },
+  {
+    "title": "Luxury Townhome – 4Bdrms",
+    "location": "Austin, Travis County, Texas, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$94.99 / Last minute",
+    "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
+  },
+  {
+    "title": "Bright Studio – 1Bdrms",
+    "location": "Las Vegas, Clark County, Nevada, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$57.11 / Last minute",
+    "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
+  },
+  {
+    "title": "Rustic Guesthouse – 3Bdrms",
+    "location": "Savannah, Chatham County, Georgia, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$79.45 / Last minute",
+    "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
+  },
+  {
+    "title": "Modern House – 2Bdrms",
+    "location": "San Diego, San Diego County, California, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$68.67 / Last minute",
+    "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
+  },
+  {
+    "title": "Elegant Cottage – 2Bdrms",
+    "location": "New York, New York County, New York, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 3,
+    "Last minute": "$85.22 / Last minute",
+    "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
+  },
+  {
+    "title": "Charming Villa – 4Bdrms",
+    "location": "Portland, Multnomah County, Oregon, United States",
+    "Beds": 4,
+    "bath": 3,
+    "Guests": 6,
+    "Last minute": "$97.88 / Last minute",
+    "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
+  },
+  {
+    "title": "Cozy Residence – 3Bdrms",
+    "location": "Santa Fe, Santa Fe County, New Mexico, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$72.34 / Last minute",
+    "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
+  },
+  {
+    "title": "Modern Apartment – 2Bdrms",
+    "location": "Minneapolis, Hennepin County, Minnesota, United States",
+    "Beds": 2,
+    "bath": 1,
+    "Guests": 4,
+    "Last minute": "$69.66 / Last minute",
+    "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
+  },
+  {
+    "title": "Bright Loft – 1Bdrms",
+    "location": "Atlanta, Fulton County, Georgia, United States",
+    "Beds": 1,
+    "bath": 1,
+    "Guests": 2,
+    "Last minute": "$52.10 / Last minute",
+    "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
+  },
+  {
+    "title": "Elegant Guesthouse – 3Bdrms",
+    "location": "Nashville, Davidson County, Tennessee, United States",
+    "Beds": 3,
+    "bath": 2,
+    "Guests": 5,
+    "Last minute": "$91.25 / Last minute",
+    "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
+  }
+]

@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '../assets/logo.png'
+import footerImage from '../assets/footer-2.png'
 
 const Footer = () => {
   return (
 
 
-    <div className='bg-[#100A55] pt-20 mt-50'>
+    <div className='bg-[#100A55] pt-20 mt-50 relative'>
       <footer className="footer sm:footer-horizontal text-base-200 p-10 mt-20">
         <aside>
           <img className='w-6/12' src={logo} alt="" />
@@ -36,10 +37,10 @@ const Footer = () => {
           </div>
           <div>
             <h6 className="footer-title">Contact Information</h6>
-            <p><i class="fa-solid fa-phone-volume bg-blue-950 p-3 rounded-4xl"></i> Phone: (123) 767-2068</p>
-            <p><i class="fa-solid fa-envelope bg-blue-950 p-3 rounded-4xl"></i> Email :
+            <p><i className="fa-solid fa-phone-volume bg-blue-950 p-3 rounded-4xl"></i> Phone: (123) 767-2068</p>
+            <p><i className="fa-solid fa-envelope bg-blue-950 p-3 rounded-4xl"></i> Email :
               imfo@premierestaysmiami.com</p>
-            <p><i class="fa-solid fa-location-dot bg-blue-950 p-3 rounded-4xl"></i> #1 Darling Street, St. Thomas Village, Chaguanas, Trinidad & Tobag</p>
+            <p><i className="fa-solid fa-location-dot bg-blue-950 p-3 rounded-4xl"></i> #1 Darling Street, St. Thomas Village, Chaguanas, Trinidad & Tobag</p>
           </div>
 
 
@@ -55,13 +56,39 @@ const Footer = () => {
 
 
         <div className='text-blue-200 text-2xl py-4 flex gap-6'>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-x-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-youtube"></i>
         </div>
       </div>
+
+
+<div className='bg-blue-500 w-8/12 mx-auto rounded-2xl flex justify-center absolute bottom-90 left-1/2 transform -translate-x-1/2'>
+  <div className='text-base-100 p-4'>
+    <h2 className='text-3xl'>Ready to Experience Comfort, Convenience, and Quality?</h2>
+    <p className='text-sm my-4'>
+      Browse our available rentals and secure your stay with just a few clicks. Whether you’re planning a weekend getaway or a longer stay, we’ve got the perfect space waiting for you.
+    </p>
+    <button className='btn bg-amber-500 rounded-4xl border-0 shadow-sm'>
+      Book A Property <i className="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+
+
+    <div className=''>
+    <img className='rounded-r-2xl' src={footerImage} alt="" />
+  </div>
+
+
+
+</div>
+
+
     </div>
+
+
+
 
 
 

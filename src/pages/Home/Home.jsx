@@ -9,6 +9,7 @@ import featurePhoto from "../../assets/Feature.png"
 import profileImage1 from "../../assets/kaium1.png"
 import profileImage2 from "../../assets/kaium2.png"
 import { FaFileInvoiceDollar, FaHouse, FaLocationDot, FaShield } from 'react-icons/fa6';
+import Listings from '../Listings';
 
 
 const Home = () => {
@@ -137,7 +138,7 @@ const Home = () => {
 
 
                         <div className='flex justify-center items-center gap-6'>
-                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i class="fa-solid fa-arrow-left text-white"></i></div>
+                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i className="fa-solid fa-arrow-left text-white"></i></div>
 
 
                             <div className="card shadow-sm grid grid-cols-3 gap-8 my-6">
@@ -146,7 +147,7 @@ const Home = () => {
                                     <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
                                     <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
 
-                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                                    <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
 
                                 </div>
 
@@ -156,7 +157,7 @@ const Home = () => {
                                     <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
                                     <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
 
-                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                                    <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
 
                                 </div>
 
@@ -166,11 +167,11 @@ const Home = () => {
                                     <h2 className="card-title text-white">Guest Communication & Booking Management</h2>
                                     <p className='text-gray-100 text-sm'>Our team is available to handle all aspects of guest communication, from initial inquiries to post-checkout feedback. We ensure timely, professional responses to all.</p>
 
-                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                                    <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
 
                                 </div>
                             </div>
-                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i class="fa-solid fa-arrow-right text-white"></i></div>
+                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i className="fa-solid fa-arrow-right text-white"></i></div>
                         </div>
                     </div>
 
@@ -211,7 +212,7 @@ const Home = () => {
                         <p className='text-sm my-4'>Properties that combine exceptional style, prime locations & outstanding value.</p>
                     </div>
                     <div>
-                        <button className=' btn bg-amber-500 rounded-4xl'>Discover More <i class="fa-solid fa-arrow-right"></i></button>
+                        <button className=' btn bg-amber-500 rounded-4xl'>Discover More <i className="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
 
@@ -221,7 +222,7 @@ const Home = () => {
                             <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
                             <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
 
-                            <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                            <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
 
                         </div>
 
@@ -231,7 +232,7 @@ const Home = () => {
                             <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
                             <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
 
-                            <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+                            <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
 
                         </div>
 
@@ -263,13 +264,13 @@ const Home = () => {
             <section className='relative my-20 mb-60'>
                 <div className='text-center bg-red-50 w-6/12 mx-auto rounded-lg p-10 pb-40'>
                     <h2 className='text-3xl mb-4'>What are Our Customers Saying </h2>
-                    <button className='btn rounded-full'><i class="fa-solid fa-arrow-left"></i></button>
-                    <button className='btn ml-3 rounded-full'><i class="fa-solid fa-arrow-right"></i></button>
+                    <button className='btn rounded-full'><i className="fa-solid fa-arrow-left"></i></button>
+                    <button className='btn ml-3 rounded-full'><i className="fa-solid fa-arrow-right"></i></button>
                 </div>
 
                 <div className='w-8/12 mx-auto grid grid-cols-2 gap-4 absolute top-40 left-52'>
                     <div className='bg-base-100 shadow-sm p-8 rounded-2xl'>
-                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <i className="fa-solid fa-star text-amber-400"></i>
                         <p className='text-sm my-4'>“We had a wonderful experience with Premier Stays Miami. The rooms were spacious and well-equipped, and any requests we had were handled promptly. It was the perfect home base for our family trip."</p>
 
                         <div className='flex mt-8'>
@@ -281,7 +282,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='text-6xl text-gray-200'>
-                                <i class="fa-solid fa-quote-left"></i>
+                                <i className="fa-solid fa-quote-left"></i>
                             </div>
                         </div>
                     </div>
@@ -289,7 +290,7 @@ const Home = () => {
 
 
                     <div className='bg-base-100 shadow-sm p-8 rounded-2xl'>
-                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <i className="fa-solid fa-star text-amber-400"></i>
                         <p className='text-sm my-4'>“Excellent location and fantastic service! The property was exactly as described—clean, quiet, and close to everything we wanted to see in Miami. The team made sure we felt welcome and taken care of throughout our stay.”</p>
 
                         <div className='flex mt-8'>
@@ -301,7 +302,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='text-6xl text-gray-200'>
-                                <i class="fa-solid fa-quote-left"></i>
+                                <i className="fa-solid fa-quote-left"></i>
                             </div>
                         </div>
                     </div>
@@ -358,6 +359,7 @@ const Home = () => {
                 </div>
             </section>
 
+            <Listings></Listings>
         </div>
     );
 };
