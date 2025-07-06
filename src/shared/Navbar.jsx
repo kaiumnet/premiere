@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../assets/logo.png";
+import { NavLink } from 'react-router';
 
 
 const Navbar = () => {
@@ -24,15 +25,13 @@ const Navbar = () => {
         <img className='w-2/12' src={logo} alt="" />
         <a className='text-amber-400'>PREMIERE<br/><span className='text-blue-600'>STAYS</span></a>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Service</a></li>
-          <li><a>Book Now</a></li>
-          <li><a>FAQ</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
+      <div className="navbar-center hidden lg:flex gap-6">
+          <NavLink>Home</NavLink>
+          <NavLink to='/about'>About</NavLink>
+          <NavLink>Service</NavLink>
+          <NavLink>Book Now</NavLink>
+          <NavLink>FAQ</NavLink>
+          <NavLink>Contact Us</NavLink>
       </div>
       <div className="navbar-end">
         <a className="cursor-pointer">Login</a>

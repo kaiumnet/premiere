@@ -6,6 +6,8 @@ import logo4 from "../../assets/Hotels.png";
 import logo5 from "../../assets/Vrbo.png";
 import aboutPhoto from "../../assets/about.png"
 import featurePhoto from "../../assets/Feature.png"
+import profileImage1 from "../../assets/kaium1.png"
+import profileImage2 from "../../assets/kaium2.png"
 import { FaFileInvoiceDollar, FaHouse, FaLocationDot, FaShield } from 'react-icons/fa6';
 
 
@@ -185,6 +187,119 @@ const Home = () => {
                 </div>
 
             </section>
+
+            <section className='p-20'>
+                <div className='flex justify-between'>
+                    <div>
+                        <h2 className='text-3xl'>Explore Our Featured Properties</h2>
+                        <p className='text-sm my-4'>Properties that combine exceptional style, prime locations & outstanding value.</p>
+                    </div>
+                    <div>
+                        <button className=' btn bg-amber-500 rounded-4xl'>Discover More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="card grid grid-cols-3 gap-8 my-6">
+                        <div className="card-body bg-[#034078] rounded-2xl">
+                            <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
+                            <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
+
+                            <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                        </div>
+
+
+
+                        <div className="card-body bg-[#034078] rounded-2xl">
+                            <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
+                            <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
+
+                            <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                        </div>
+
+
+
+                        <div className="card shadow-xs">
+                            <figure>
+                                <img
+                                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                    alt="Shoes" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Card Title
+                                    <div className="badge badge-secondary">NEW</div>
+                                </h2>
+                                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                <div className="card-actions justify-end">
+                                    <div className="badge badge-outline">Fashion</div>
+                                    <div className="badge badge-outline">Products</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='relative my-20 mb-60'>
+                <div className='text-center bg-red-50 w-6/12 mx-auto rounded-lg p-10 pb-40'>
+                    <h2 className='text-3xl mb-4'>What are Our Customers Saying </h2>
+                    <button className='btn rounded-full'><i class="fa-solid fa-arrow-left"></i></button>
+                    <button className='btn ml-3 rounded-full'><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div className='w-8/12 mx-auto grid grid-cols-2 gap-4 absolute top-40 left-52'>
+                    <div className='bg-base-100 shadow-sm p-8 rounded-2xl'>
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <p className='text-sm my-4'>“We had a wonderful experience with Premier Stays Miami. The rooms were spacious and well-equipped, and any requests we had were handled promptly. It was the perfect home base for our family trip."</p>
+
+                        <div className='flex mt-8'>
+                            <div className='flex items-center gap-2'>
+                                <img className='bg-cyan-300 w-2/12 rounded-full' src={profileImage2} alt="" />
+                                <div>
+                                    <h5 className='font-bold'>Annette Black</h5>
+                                    <p>12 January, 2025</p>
+                                </div>
+                            </div>
+                            <div className='text-6xl text-gray-200'>
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div className='bg-base-100 shadow-sm p-8 rounded-2xl'>
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <p className='text-sm my-4'>“We had a wonderful experience with Premier Stays Miami. The rooms were spacious and well-equipped, and any requests we had were handled promptly. It was the perfect home base for our family trip."</p>
+
+                        <div className='flex mt-8'>
+                            <div className='flex items-center gap-2'>
+                                <img className='bg-cyan-300 w-2/12 rounded-full' src={profileImage1} alt="" />
+                                <div>
+                                    <h5 className='font-bold'>Annette Black</h5>
+                                    <p>12 January, 2025</p>
+                                </div>
+                            </div>
+                            <div className='text-6xl text-gray-200'>
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+<section>
+    <div>
+        <h2>Frequently Asked Questions</h2>
+    </div>
+</section>
 
         </div>
     );
