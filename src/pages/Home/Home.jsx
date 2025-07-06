@@ -29,7 +29,7 @@ const Home = () => {
             </div>
 
 
-            <div className='flex justify-between gap-20 p-10 w-11/12 mx-auto my-20'>
+            <div id='About' className='flex justify-between gap-20 p-10 w-11/12 mx-auto my-20'>
                 <img className='w-4/12 rounded-2xl' src={aboutPhoto} alt="" />
                 <div>
                     <h3 className='text-2xl text-fuchsia-400'>About Us</h3>
@@ -40,76 +40,81 @@ const Home = () => {
             </div>
 
 
-            <div className='bg-orange-50 text-center py-20'>
-                <div>
-                    <h3 className='text-2xl text-fuchsia-400'>Our Feature</h3>
-                    <h2 className='text-4xl my-6'>Our Featured Properties</h2>
-                </div>
-
-
-                <div className="w-10/12 mx-auto grid grid-cols-2 gap-10 py-20">
-                    <div className='grid grid-cols-2 grid-rows-2 gap-4 mx-auto'>
-                        <div className="card bg-base-100 card-lg shadow-sm text-left">
-                            <div className="card-body">
-                                <FaHouse className="text-6xl text-orange-500 bg-blue-100 p-2 rounded-full" />
-                                <h2 className="text-lg">1 Direct Booking with No Service Fees</h2>
-                                <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            </div>
-                        </div>
-
-
-
-                        <div className="card bg-base-100 card-lg shadow-sm text-left">
-                            <div className="card-body">
-                                <FaLocationDot className="text-6xl text-blue-500 bg-orange-200 p-2 rounded-full" />
-                                <h2 className="text-lg">2 Direct Booking with No Service Fees</h2>
-                                <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            </div>
-                        </div>
-
-
-
-
-                        <div className="card bg-base-100 card-lg shadow-sm text-left">
-                            <div className="card-body">
-                                <FaShield className="text-6xl text-white bg-indigo-400 p-2 rounded-full" />
-                                <h2 className="text-lg">3 Direct Booking with No Service Fees</h2>
-                                <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            </div>
-                        </div>
-
-
-
-                        <div className="card bg-base-100 card-lg shadow-sm text-left">
-                            <div className="card-body">
-                                <FaFileInvoiceDollar className="text-6xl text-indigo-500 bg-orange-300 p-2 rounded-full" />
-                                <h2 className="text-lg">4 Direct Booking with No Service Fees</h2>
-                                <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            </div>
-                        </div>
+            <section id='Feature'>
+                <div className='bg-orange-50 text-center py-20'>
+                    <div>
+                        <h3 className='text-2xl text-fuchsia-400'>Our Feature</h3>
+                        <h2 className='text-4xl my-6'>Our Featured Properties</h2>
                     </div>
 
 
+                    <div className="w-10/12 mx-auto grid grid-cols-2 gap-10 py-20">
+                        <div className='grid grid-cols-2 grid-rows-2 gap-4 mx-auto'>
+                            <div className="card bg-base-100 card-lg shadow-sm text-left">
+                                <div className="card-body">
+                                    <FaHouse className="text-6xl text-orange-500 bg-blue-100 p-2 rounded-full" />
+                                    <h2 className="text-lg">1 Direct Booking with No Service Fees</h2>
+                                    <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+
+
+
+                            <div className="card bg-base-100 card-lg shadow-sm text-left">
+                                <div className="card-body">
+                                    <FaLocationDot className="text-6xl text-blue-500 bg-orange-200 p-2 rounded-full" />
+                                    <h2 className="text-lg">2 Direct Booking with No Service Fees</h2>
+                                    <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
 
 
 
 
-                    <div className='grid grid-cols-2 grid-rows-2'>
-                        <div className="card bg-linear-to-b from-cyan-50 to-blue-200 card-lg shadow-sm text-left col-span-2 row-span-2 relative">
-                            <div className="card-body justify-center">
-                                <img src={featurePhoto} alt="" />
-                                <div className='bg-base-100 p-4 w-6/12 rounded-lg absolute bottom-[-30px] left-56'>
-                                    <h3 className='font-bold'>Find the best deal</h3>
-                                    <p className='text-xs'>Browse thousands of properties</p>
+                            <div className="card bg-base-100 card-lg shadow-sm text-left">
+                                <div className="card-body">
+                                    <FaShield className="text-6xl text-white bg-indigo-400 p-2 rounded-full" />
+                                    <h2 className="text-lg">3 Direct Booking with No Service Fees</h2>
+                                    <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+
+
+
+                            <div className="card bg-base-100 card-lg shadow-sm text-left">
+                                <div className="card-body">
+                                    <FaFileInvoiceDollar className="text-6xl text-indigo-500 bg-orange-300 p-2 rounded-full" />
+                                    <h2 className="text-lg">4 Direct Booking with No Service Fees</h2>
+                                    <p className='text-xs'>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div className='grid grid-cols-2 grid-rows-2'>
+                            <div className="card bg-linear-to-b from-cyan-50 to-blue-200 card-lg shadow-sm text-left col-span-2 row-span-2 relative">
+                                <div className="card-body justify-center">
+                                    <img src={featurePhoto} alt="" />
+                                    <div className='bg-base-100 p-4 w-6/12 rounded-lg absolute bottom-[-30px] left-56'>
+                                        <h3 className='font-bold'>Find the best deal</h3>
+                                        <p className='text-xs'>Browse thousands of properties</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
-            <section className='bg-[#100A55] p-10 py-20'>
+
+
+
+            <section id='Services' className='bg-[#100A55] p-10 py-20'>
 
                 <div className='w-11/12 mx-auto'>
                     <div className='flex justify-between'>
@@ -260,7 +265,7 @@ const Home = () => {
                             <div className='flex items-center gap-2'>
                                 <img className='bg-cyan-300 w-2/12 rounded-full' src={profileImage2} alt="" />
                                 <div>
-                                    <h5 className='font-bold'>Annette Black</h5>
+                                    <h5 className='font-bold'>Md Abdul Kaium</h5>
                                     <p>12 January, 2025</p>
                                 </div>
                             </div>
@@ -274,13 +279,13 @@ const Home = () => {
 
                     <div className='bg-base-100 shadow-sm p-8 rounded-2xl'>
                         <i class="fa-solid fa-star text-amber-400"></i>
-                        <p className='text-sm my-4'>“We had a wonderful experience with Premier Stays Miami. The rooms were spacious and well-equipped, and any requests we had were handled promptly. It was the perfect home base for our family trip."</p>
+                        <p className='text-sm my-4'>“Excellent location and fantastic service! The property was exactly as described—clean, quiet, and close to everything we wanted to see in Miami. The team made sure we felt welcome and taken care of throughout our stay.”</p>
 
                         <div className='flex mt-8'>
                             <div className='flex items-center gap-2'>
                                 <img className='bg-cyan-300 w-2/12 rounded-full' src={profileImage1} alt="" />
                                 <div>
-                                    <h5 className='font-bold'>Annette Black</h5>
+                                    <h5 className='font-bold'>Abdul Kaium</h5>
                                     <p>12 January, 2025</p>
                                 </div>
                             </div>
@@ -295,11 +300,47 @@ const Home = () => {
 
 
 
-<section>
-    <div>
-        <h2>Frequently Asked Questions</h2>
-    </div>
-</section>
+            <section id='FAQ' className='bg-base-200 p-10'>
+                <div>
+                    <h2 className='text-3xl'>Frequently Asked Questions</h2>
+                </div>
+
+                <div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" defaultChecked />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you handle guest bookings and reservations for my property?</div>
+                        <div className="collapse-content text-sm bg-white">Set Sale Marine modernizes the boat buying and selling process by offering an easy-to-use platform, professional level resources, and AI personalized assistance. Our goal is to connect buyers and sellers while providing expert guidance at every step.</div>
+                    </div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you ensure that my property is well-maintained and guest-ready at all times?</div>
+                        <div className="collapse-content text-sm bg-white">We conduct regular inspections, thorough cleaning, and timely maintenance to keep your property in excellent condition. Our team uses detailed checklists to ensure every guest enjoys a clean and comfortable stay.</div>
+                    </div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">What strategies do you use to maximize my rental income?</div>
+                        <div className="collapse-content text-sm bg-white">We use dynamic pricing, professional marketing, and optimize booking platforms to attract more guests and increase your rental revenue.</div>
+                    </div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you screen potential guests for my property?</div>
+                        <div className="collapse-content text-sm bg-white">We verify guest identities, review past reviews, and use trusted booking platforms to ensure safe and reliable renters.</div>
+                    </div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">What happens if a guest damages my property?</div>
+                        <div className="collapse-content text-sm bg-white">We document damages thoroughly and work with guests or their insurance to cover repair costs, ensuring your property is protected.
+
+                        </div>
+                    </div>
+                    <div className="collapse collapse-plus border border-base-300 group">
+                        <input type="radio" name="my-accordion-3" />
+                        <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">Do you offer 24/7 guest support?
+                        </div>
+                        <div className="collapse-content text-sm bg-white">Yes, our team provides 24/7 guest support to ensure smooth check-ins, quick issue resolution, and excellent service at all times.</div>
+                    </div>
+                </div>
+            </section>
 
         </div>
     );

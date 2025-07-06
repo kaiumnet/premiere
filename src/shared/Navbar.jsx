@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../assets/logo.png";
 import { NavLink } from 'react-router';
+import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -27,11 +28,12 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex gap-6">
           <NavLink>Home</NavLink>
-          <NavLink to='/about'>About</NavLink>
-          <NavLink>Service</NavLink>
+          <Link to="About" smooth={true} duration={700} className="cursor-pointer">About</Link>
+          <Link to="Services" smooth={true} duration={700} className="cursor-pointer">Service</Link>
           <NavLink>Book Now</NavLink>
-          <NavLink>FAQ</NavLink>
+          <Link to="FAQ" smooth={true} duration={700} className="cursor-pointer">FAQ</Link>
           <NavLink>Contact Us</NavLink>
+
       </div>
       <div className="navbar-end">
         <a className="cursor-pointer">Login</a>
