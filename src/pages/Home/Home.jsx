@@ -300,41 +300,46 @@ const Home = () => {
 
 
 
-            <section id='FAQ' className='bg-base-200 p-10'>
+            <section id='FAQ' className='p-10 w-11/12 mx-auto'>
                 <div>
-                    <h2 className='text-3xl'>Frequently Asked Questions</h2>
+                    <h2 className='text-3xl mb-10 text-center'>Frequently Asked Questions</h2>
+                </div>
+
+                <div className='text-center mb-10'>
+                    <button className='btn m-3 rounded-4xl bg-indigo-500 text-white'>Property MGMT with Premiere Stays</button>
+                    <button className='btn rounded-4xl bg-white'>Booking with Premiere Stays</button>
                 </div>
 
                 <div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" defaultChecked />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" defaultChecked />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you handle guest bookings and reservations for my property?</div>
                         <div className="collapse-content text-sm bg-white">Set Sale Marine modernizes the boat buying and selling process by offering an easy-to-use platform, professional level resources, and AI personalized assistance. Our goal is to connect buyers and sellers while providing expert guidance at every step.</div>
                     </div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you ensure that my property is well-maintained and guest-ready at all times?</div>
                         <div className="collapse-content text-sm bg-white">We conduct regular inspections, thorough cleaning, and timely maintenance to keep your property in excellent condition. Our team uses detailed checklists to ensure every guest enjoys a clean and comfortable stay.</div>
                     </div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">What strategies do you use to maximize my rental income?</div>
                         <div className="collapse-content text-sm bg-white">We use dynamic pricing, professional marketing, and optimize booking platforms to attract more guests and increase your rental revenue.</div>
                     </div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">How do you screen potential guests for my property?</div>
                         <div className="collapse-content text-sm bg-white">We verify guest identities, review past reviews, and use trusted booking platforms to ensure safe and reliable renters.</div>
                     </div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">What happens if a guest damages my property?</div>
                         <div className="collapse-content text-sm bg-white">We document damages thoroughly and work with guests or their insurance to cover repair costs, ensuring your property is protected.
 
                         </div>
                     </div>
-                    <div className="collapse collapse-plus border border-base-300 group">
-                        <input type="radio" name="my-accordion-3" />
+                    <div className="collapse collapse-plus bg-base-300 border border-base-300 group mb-4 shadow-sm">
+                        <input type="checkbox" name="my-accordion-3" />
                         <div className="collapse-title font-semibold group-has-[input:checked]:bg-[#03045e] group-has-[input:checked]:text-white">Do you offer 24/7 guest support?
                         </div>
                         <div className="collapse-content text-sm bg-white">Yes, our team provides 24/7 guest support to ensure smooth check-ins, quick issue resolution, and excellent service at all times.</div>
