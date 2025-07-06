@@ -116,7 +116,7 @@ const Home = () => {
 
             <section id='Services' className='bg-[#100A55] p-10 py-20'>
 
-                <div className='w-11/12 mx-auto'>
+                <div className=''>
                     <div className='flex justify-between'>
                         <div>
                             <h3 className='text-blue-400'>Our Services</h3>
@@ -126,40 +126,51 @@ const Home = () => {
 
                         <div className='w-5/12'>
                             <p className='text-white'>Explore our comprehensive services, meticulously crafted to enhance property value and streamline management.</p>
-                            <button className='btn bg-amber-500 rounded-4xl my-6 border-0'>View All Service</button>
+                            <button className='btn bg-amber-500 rounded-4xl my-6 border-0 shadow-xs'>View All Service</button>
                         </div>
                     </div>
 
+
+
                     <div>
 
-                        <div className="card  shadow-sm grid grid-cols-3 gap-8 my-6">
-                            <div className="card-body bg-[#034078] rounded-2xl">
-                                <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
-                                <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
 
-                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
 
+                        <div className='flex justify-center items-center gap-6'>
+                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i class="fa-solid fa-arrow-left text-white"></i></div>
+
+
+                            <div className="card shadow-sm grid grid-cols-3 gap-8 my-6">
+
+                                <div className="card-body bg-[#034078] rounded-2xl">
+                                    <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
+                                    <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
+
+                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                                </div>
+
+
+
+                                <div className="card-body bg-[#034078] rounded-2xl">
+                                    <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
+                                    <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
+
+                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                                </div>
+
+
+
+                                <div className="card-body bg-[#034078] rounded-2xl">
+                                    <h2 className="card-title text-white">Guest Communication & Booking Management</h2>
+                                    <p className='text-gray-100 text-sm'>Our team is available to handle all aspects of guest communication, from initial inquiries to post-checkout feedback. We ensure timely, professional responses to all.</p>
+
+                                    <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
+
+                                </div>
                             </div>
-
-
-
-                            <div className="card-body bg-[#034078] rounded-2xl">
-                                <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
-                                <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
-
-                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
-
-                            </div>
-
-
-
-                            <div className="card-body bg-[#034078] rounded-2xl">
-                                <h2 className="card-title text-white">Guest Communication & Booking Management</h2>
-                                <p className='text-gray-100 text-sm'>Our team is available to handle all aspects of guest communication, from initial inquiries to post-checkout feedback. We ensure timely, professional responses to all.</p>
-
-                                <a href="" className='text-indigo-400'>Learn More <i class="fa-solid fa-arrow-right"></i> </a>
-
-                            </div>
+                            <div className='btn rounded-4xl text-sm bg-blue-900 border-0 shadow-xs'><i class="fa-solid fa-arrow-right text-white"></i></div>
                         </div>
                     </div>
 
