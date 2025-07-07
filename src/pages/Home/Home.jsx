@@ -10,6 +10,7 @@ import profileImage1 from "../../assets/kaium1.png"
 import profileImage2 from "../../assets/kaium2.png"
 import { FaFileInvoiceDollar, FaHouse, FaLocationDot, FaShield } from 'react-icons/fa6';
 import Listings from '../Listings';
+import { NavLink } from 'react-router';
 
 
 const Home = () => {
@@ -212,7 +213,7 @@ const Home = () => {
                         <p className='text-sm my-4'>Properties that combine exceptional style, prime locations & outstanding value.</p>
                     </div>
                     <div>
-                        <button className=' btn bg-amber-500 rounded-4xl'>Discover More <i className="fa-solid fa-arrow-right"></i></button>
+                        <NavLink to= '/listings' ><button className=' btn bg-amber-500 rounded-4xl'>Discover More <i className="fa-solid fa-arrow-right"></i></button></NavLink>
                     </div>
                 </div>
 
