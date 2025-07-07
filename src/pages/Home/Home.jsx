@@ -206,55 +206,104 @@ const Home = () => {
 
             </section>
 
-            <section className='p-20'>
+            <section className='p-20 bg-cyan-100'>
                 <div className='flex justify-between'>
                     <div>
                         <h2 className='text-3xl'>Explore Our Featured Properties</h2>
                         <p className='text-sm my-4'>Properties that combine exceptional style, prime locations & outstanding value.</p>
                     </div>
                     <div>
-                        <NavLink to= '/listings' ><button className=' btn bg-amber-500 rounded-4xl'>Discover More <i className="fa-solid fa-arrow-right"></i></button></NavLink>
+                        <NavLink to='/listings' ><button className=' btn bg-amber-500 rounded-4xl'>Discover More <i className="fa-solid fa-arrow-right"></i></button></NavLink>
                     </div>
                 </div>
 
                 <div>
                     <div className="card grid grid-cols-3 gap-8 my-6">
-                        <div className="card-body bg-[#034078] rounded-2xl">
-                            <h2 className="card-title text-white">Housekeeping & Turnover Coordination</h2>
-                            <p className='text-gray-100 text-sm'>We prioritize cleanliness and guest satisfaction with our meticulous housekeeping. Each turnover is managed with a detailed checklist to ensure a hotel-standard experience.</p>
-
-                            <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
-
-                        </div>
-
-
-
-                        <div className="card-body bg-[#034078] rounded-2xl">
-                            <h2 className="card-title text-white">Legal & Compliance Assistance</h2>
-                            <p className='text-gray-100 text-sm'>Navigating local laws and regulations in the short-term rental market can be complex, especially in places like Miami. We stay up-to-date on all relevant legal requirements.</p>
-
-                            <a href="" className='text-indigo-400'>Learn More <i className="fa-solid fa-arrow-right"></i> </a>
-
-                        </div>
-
-
-
-                        <div className="card shadow-xs">
-                            <figure>
+                        <div className="card shadow-xs bg-[#005f73]">
+                            <figure className="relative">
                                 <img
-                                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                    alt="Shoes" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">
-                                    Card Title
-                                    <div className="badge badge-secondary">NEW</div>
-                                </h2>
-                                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                                <div className="card-actions justify-end">
-                                    <div className="badge badge-outline">Fashion</div>
-                                    <div className="badge badge-outline">Products</div>
+                                    src="https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
+                                    alt="" />
+
+                                <div className="absolute w-8/12 bottom-2 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-50 text-cyan-500 font-bold p-2 flex space-x-8 rounded-2xl"
+                                >
+                                    <p className="mb-0 text-center flex items-center space-x-2">
+                                        <i className="fa-solid fa-bed"></i>
+                                        <span>Beds: 2</span>
+                                    </p>
+                                    <p className="mb-0 text-center flex= space-x-2">
+                                        <i className="fa-solid fa-bath"></i>
+                                        <span>Bath: 2</span>
+                                    </p>
+
                                 </div>
+                            </figure>
+                            <div className="card-body p-4 text-white">
+                                <h2 className="card-title">
+                                    Luxury Suite - 1Bdrms
+                                </h2>
+                                <p> <i className="fa-solid fa-location-dot"></i> San Diego, San Diego County, California, United States</p>
+                                <p className='border-t-1 border-gray-300 text-lg font-bold'>$50/Last minute</p>
+                            </div>
+                        </div>
+
+
+
+                        <div className="card shadow-xs bg-[#005f73]">
+                            <figure className="relative">
+                                <img
+                                    src="https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
+                                    alt="" />
+
+                                <div className="absolute w-8/12 bottom-2 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-50 text-cyan-500 font-bold p-2 flex space-x-8 rounded-2xl"
+                                >
+                                    <p className="mb-0 text-center flex items-center space-x-2">
+                                        <i className="fa-solid fa-bed"></i>
+                                        <span>Beds: 2</span>
+                                    </p>
+                                    <p className="mb-0 text-center flex= space-x-2">
+                                        <i className="fa-solid fa-bath"></i>
+                                        <span>Bath: 2</span>
+                                    </p>
+
+                                </div>
+
+                            </figure>
+                            <div className="card-body p-4 text-white">
+                                <h2 className="card-title">
+                                    Spacious Residence - 4Bdrms
+                                </h2>
+                                <p> <i className="fa-solid fa-location-dot"></i> Philadelphia, Philadelphia County, Pennsylvania, United States</p>
+                                <p className='border-t-1 border-gray-300 text-lg font-bold'>$60/Last minute</p>
+                            </div>
+                        </div>
+
+
+
+                        <div className="card shadow-xs bg-[#005f73]">
+                            <figure className="relative">
+                                <img
+                                    src="https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
+                                    alt="" />
+                                <div className="absolute w-8/12 bottom-2 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-50 text-cyan-500 font-bold p-2 flex space-x-8 rounded-2xl"
+                                >
+                                    <p className="mb-0 text-center flex items-center space-x-2">
+                                        <i className="fa-solid fa-bed"></i>
+                                        <span>Beds: 2</span>
+                                    </p>
+                                    <p className="mb-0 text-center flex= space-x-2">
+                                        <i className="fa-solid fa-bath"></i>
+                                        <span>Bath: 2</span>
+                                    </p>
+
+                                </div>
+                            </figure>
+                            <div className="card-body p-4 text-white">
+                                <h2 className="card-title">
+                                    Elegant Bungalow - 3Bdrms
+                                </h2>
+                                <p> <i className="fa-solid fa-location-dot"></i> Minneapolis, Hennepin County, Minnesota, United States</p>
+                                <p className='border-t-1 border-gray-300 text-lg font-bold'>$75/Last minute</p>
                             </div>
                         </div>
                     </div>
@@ -360,7 +409,6 @@ const Home = () => {
                 </div>
             </section>
 
-            <Listings></Listings>
         </div>
     );
 };

@@ -27,7 +27,7 @@ const Navbar = () => {
         <a className='text-amber-400'>PREMIERE<br/><span className='text-blue-600'>STAYS</span></a>
       </div>
       <div className="navbar-center hidden lg:flex gap-6">
-          <NavLink>Home</NavLink>
+          <NavLink to='/'>Home</NavLink>
           <Link to="About" smooth={true} duration={700} className="cursor-pointer">About</Link>
           <Link to="Services" smooth={true} duration={700} className="cursor-pointer">Service</Link>
           <NavLink>Book Now</NavLink>

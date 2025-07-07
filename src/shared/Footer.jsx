@@ -56,10 +56,10 @@ const Footer = () => {
 
 
         <div className='text-blue-200 text-2xl py-4 flex gap-6'>
-          <i className="fa-brands fa-facebook"></i>
-          <i className="fa-brands fa-x-twitter"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-facebook cursor-pointer"></i>
+          <i className="fa-brands fa-x-twitter cursor-pointer"></i>
+          <i className="fa-brands fa-instagram cursor-pointer"></i>
+          <i className="fa-brands fa-youtube cursor-pointer"></i>
         </div>
       </div>
 
