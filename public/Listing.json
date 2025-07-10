@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": 1,
@@ -8,6 +6,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 5,
+    "Price": 185,
     "Last minute": "$93.94 / Last minute",
     "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
   },
@@ -18,6 +17,7 @@
     "Beds": 3,
     "bath": 1,
     "Guests": 6,
+    "Price": 145,
     "Last minute": "$64.18 / Last minute",
     "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
   },
@@ -28,6 +28,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 160,
     "Last minute": "$70.02 / Last minute",
     "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
   },
@@ -38,6 +39,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$77.85 / Last minute",
     "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
   },
@@ -48,6 +50,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 3,
+    "Price": 140,
     "Last minute": "$81.53 / Last minute",
     "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
   },
@@ -58,6 +61,7 @@
     "Beds": 3,
     "bath": 1,
     "Guests": 4,
+    "Price": 155,
     "Last minute": "$98.69 / Last minute",
     "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
   },
@@ -68,6 +72,7 @@
     "Beds": 3,
     "bath": 1,
     "Guests": 5,
+    "Price": 170,
     "Last minute": "$59.72 / Last minute",
     "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
   },
@@ -78,6 +83,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$78.19 / Last minute",
     "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
   },
@@ -88,6 +94,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 180,
     "Last minute": "$84.10 / Last minute",
     "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
   },
@@ -98,6 +105,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 4,
+    "Price": 190,
     "Last minute": "$92.67 / Last minute",
     "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
   },
@@ -108,6 +116,7 @@
     "Beds": 5,
     "bath": 2,
     "Guests": 6,
+    "Price": 175,
     "Last minute": "$60.32 / Last minute",
     "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
   },
@@ -118,6 +127,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 4,
+    "Price": 165,
     "Last minute": "$91.74 / Last minute",
     "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
   },
@@ -128,6 +138,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 150,
     "Last minute": "$72.48 / Last minute",
     "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
   },
@@ -138,6 +149,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 140,
     "Last minute": "$86.13 / Last minute",
     "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
   },
@@ -148,6 +160,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 190,
     "Last minute": "$98.56 / Last minute",
     "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
   },
@@ -158,6 +171,7 @@
     "Beds": 3,
     "bath": 1,
     "Guests": 5,
+    "Price": 160,
     "Last minute": "$79.33 / Last minute",
     "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
   },
@@ -168,6 +182,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 180,
     "Last minute": "$88.67 / Last minute",
     "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
   },
@@ -178,6 +193,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$71.24 / Last minute",
     "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
   },
@@ -188,6 +204,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 140,
     "Last minute": "$67.75 / Last minute",
     "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
   },
@@ -198,6 +215,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$61.92 / Last minute",
     "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
   },
@@ -208,6 +226,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 180,
     "Last minute": "$82.41 / Last minute",
     "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
   },
@@ -218,6 +237,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 190,
     "Last minute": "$90.55 / Last minute",
     "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
   },
@@ -228,6 +248,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 175,
     "Last minute": "$58.67 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -238,6 +259,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 160,
     "Last minute": "$96.88 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   },
@@ -248,6 +270,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 145,
     "Last minute": "$74.20 / Last minute",
     "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
   },
@@ -258,6 +281,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$85.13 / Last minute",
     "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
   },
@@ -268,6 +292,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$66.49 / Last minute",
     "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
   },
@@ -278,6 +303,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 140,
     "Last minute": "$91.05 / Last minute",
     "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
   },
@@ -288,6 +314,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 170,
     "Last minute": "$89.31 / Last minute",
     "img-url": "https://i.ibb.co/zVBB4s0v/Screenshot-13.png"
   },
@@ -298,6 +325,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 130,
     "Last minute": "$60.76 / Last minute",
     "img-url": "https://i.ibb.co/ZC0yW86/Screenshot-14.png"
   },
@@ -308,6 +336,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 155,
     "Last minute": "$92.88 / Last minute",
     "img-url": "https://i.ibb.co/SDyWNw53/Screenshot-15.png"
   },
@@ -318,6 +347,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 190,
     "Last minute": "$63.20 / Last minute",
     "img-url": "https://i.ibb.co/WW3nf1C3/Screenshot-16.png"
   },
@@ -328,6 +358,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$78.34 / Last minute",
     "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
   },
@@ -338,6 +369,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 170,
     "Last minute": "$73.59 / Last minute",
     "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
   },
@@ -348,6 +380,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 190,
     "Last minute": "$98.06 / Last minute",
     "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
   },
@@ -358,6 +391,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 135,
     "Last minute": "$68.72 / Last minute",
     "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
   },
@@ -368,6 +402,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$61.23 / Last minute",
     "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
   },
@@ -378,6 +413,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$94.55 / Last minute",
     "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
   },
@@ -388,6 +424,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$76.91 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -398,6 +435,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 125,
     "Last minute": "$65.09 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   },
@@ -408,6 +446,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 195,
     "Last minute": "$95.18 / Last minute",
     "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
   },
@@ -418,6 +457,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 220,
     "Last minute": "$69.37 / Last minute",
     "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
   },
@@ -428,6 +468,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 125,
     "Last minute": "$87.41 / Last minute",
     "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
   },
@@ -438,6 +479,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 230,
     "Last minute": "$99.88 / Last minute",
     "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
   },
@@ -448,6 +490,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 140,
     "Last minute": "$62.77 / Last minute",
     "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
   },
@@ -458,6 +501,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$73.21 / Last minute",
     "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
   },
@@ -468,6 +512,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$84.96 / Last minute",
     "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
   },
@@ -478,6 +523,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 110,
     "Last minute": "$55.66 / Last minute",
     "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
   },
@@ -488,6 +534,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 210,
     "Last minute": "$97.74 / Last minute",
     "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
   },
@@ -498,6 +545,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 170,
     "Last minute": "$66.48 / Last minute",
     "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
   },
@@ -508,6 +556,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 220,
     "Last minute": "$88.67 / Last minute",
     "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
   },
@@ -518,6 +567,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 165,
     "Last minute": "$71.24 / Last minute",
     "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
   },
@@ -528,6 +578,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 190,
     "Last minute": "$67.75 / Last minute",
     "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
   },
@@ -538,6 +589,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 120,
     "Last minute": "$61.92 / Last minute",
     "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
   },
@@ -548,6 +600,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 180,
     "Last minute": "$82.41 / Last minute",
     "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
   },
@@ -558,6 +611,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 210,
     "Last minute": "$90.55 / Last minute",
     "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
   },
@@ -568,6 +622,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 205,
     "Last minute": "$58.67 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -578,6 +633,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$96.88 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   },
@@ -588,6 +644,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 145,
     "Last minute": "$74.20 / Last minute",
     "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
   },
@@ -598,6 +655,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 120,
     "Last minute": "$85.13 / Last minute",
     "img-url": "https://i.ibb.co/b0bmMH7/Screenshot-10.png"
   },
@@ -608,6 +666,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 4,
+    "Price": 175,
     "Last minute": "$66.49 / Last minute",
     "img-url": "https://i.ibb.co/tpsvmJXC/Screenshot-11.png"
   },
@@ -618,6 +677,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 150,
     "Last minute": "$91.05 / Last minute",
     "img-url": "https://i.ibb.co/7tXq5rG9/Screenshot-12.png"
   },
@@ -628,6 +688,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 185,
     "Last minute": "$80.40 / Last minute",
     "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
   },
@@ -638,6 +699,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 145,
     "Last minute": "$72.88 / Last minute",
     "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
   },
@@ -648,6 +710,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 180,
     "Last minute": "$59.23 / Last minute",
     "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
   },
@@ -658,6 +721,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 170,
     "Last minute": "$93.76 / Last minute",
     "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
   },
@@ -668,6 +732,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 190,
     "Last minute": "$88.05 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -678,6 +743,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 140,
     "Last minute": "$61.30 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   },
@@ -688,6 +754,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 185,
     "Last minute": "$94.99 / Last minute",
     "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
   },
@@ -698,6 +765,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$57.11 / Last minute",
     "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
   },
@@ -708,6 +776,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 160,
     "Last minute": "$79.45 / Last minute",
     "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
   },
@@ -718,6 +787,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 145,
     "Last minute": "$68.67 / Last minute",
     "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
   },
@@ -728,6 +798,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 160,
     "Last minute": "$85.22 / Last minute",
     "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
   },
@@ -738,6 +809,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 200,
     "Last minute": "$97.88 / Last minute",
     "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
   },
@@ -748,6 +820,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 185,
     "Last minute": "$72.34 / Last minute",
     "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
   },
@@ -758,6 +831,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 175,
     "Last minute": "$69.66 / Last minute",
     "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
   },
@@ -768,6 +842,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 135,
     "Last minute": "$52.10 / Last minute",
     "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
   },
@@ -778,6 +853,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 145,
     "Last minute": "$76.91 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -788,6 +864,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 140,
     "Last minute": "$65.09 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   },
@@ -798,6 +875,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 195,
     "Last minute": "$95.18 / Last minute",
     "img-url": "https://i.ibb.co/vCLrg461/Screenshot-25.png"
   },
@@ -808,6 +886,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$69.37 / Last minute",
     "img-url": "https://i.ibb.co/LhC8v2BR/Screenshot-1.png"
   },
@@ -818,6 +897,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 130,
     "Last minute": "$87.41 / Last minute",
     "img-url": "https://i.ibb.co/L4LSLvt/Screenshot-2.png"
   },
@@ -828,6 +908,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 200,
     "Last minute": "$99.88 / Last minute",
     "img-url": "https://i.ibb.co/8gc70zjn/Screenshot-3.png"
   },
@@ -838,6 +919,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 145,
     "Last minute": "$62.77 / Last minute",
     "img-url": "https://i.ibb.co/v6553DDJ/Screenshot-4.png"
   },
@@ -848,6 +930,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$73.21 / Last minute",
     "img-url": "https://i.ibb.co/1YYWtDBw/Screenshot-5.png"
   },
@@ -858,6 +941,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 155,
     "Last minute": "$84.96 / Last minute",
     "img-url": "https://i.ibb.co/hJhtmQFT/Screenshot-6.png"
   },
@@ -868,6 +952,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 120,
     "Last minute": "$55.66 / Last minute",
     "img-url": "https://i.ibb.co/TdCnRqt/Screenshot-7.png"
   },
@@ -878,6 +963,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 195,
     "Last minute": "$97.74 / Last minute",
     "img-url": "https://i.ibb.co/0V9mVQhS/Screenshot-8.png"
   },
@@ -888,6 +974,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 140,
     "Last minute": "$66.48 / Last minute",
     "img-url": "https://i.ibb.co/qYb0wH12/Screenshot-9.png"
   },
@@ -898,6 +985,7 @@
     "Beds": 4,
     "bath": 3,
     "Guests": 6,
+    "Price": 185,
     "Last minute": "$88.67 / Last minute",
     "img-url": "https://i.ibb.co/d4xjWSkx/Screenshot-17.png"
   },
@@ -908,6 +996,7 @@
     "Beds": 2,
     "bath": 2,
     "Guests": 4,
+    "Price": 150,
     "Last minute": "$71.24 / Last minute",
     "img-url": "https://i.ibb.co/tp9tKpCB/Screenshot-18.png"
   },
@@ -918,6 +1007,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 4,
+    "Price": 160,
     "Last minute": "$67.75 / Last minute",
     "img-url": "https://i.ibb.co/gZmx6p8K/Screenshot-19.png"
   },
@@ -928,6 +1018,7 @@
     "Beds": 1,
     "bath": 1,
     "Guests": 2,
+    "Price": 120,
     "Last minute": "$61.92 / Last minute",
     "img-url": "https://i.ibb.co/tPYkHTnS/Screenshot-20.png"
   },
@@ -938,6 +1029,7 @@
     "Beds": 2,
     "bath": 1,
     "Guests": 3,
+    "Price": 145,
     "Last minute": "$82.41 / Last minute",
     "img-url": "https://i.ibb.co/n8kf8V3y/Screenshot-21.png"
   },
@@ -948,6 +1040,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 190,
     "Last minute": "$90.55 / Last minute",
     "img-url": "https://i.ibb.co/prQdm5PX/Screenshot-22.png"
   },
@@ -958,6 +1051,7 @@
     "Beds": 4,
     "bath": 2,
     "Guests": 6,
+    "Price": 210,
     "Last minute": "$58.67 / Last minute",
     "img-url": "https://i.ibb.co/R1S0Lwr/Screenshot-23.png"
   },
@@ -968,6 +1062,7 @@
     "Beds": 3,
     "bath": 2,
     "Guests": 5,
+    "Price": 180,
     "Last minute": "$96.88 / Last minute",
     "img-url": "https://i.ibb.co/9mXKXcd4/Screenshot-24.png"
   }
