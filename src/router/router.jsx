@@ -3,8 +3,8 @@ import {
 } from "react-router";
 import RootLayout from "../layouts/RootLayout";
 import Home from "../pages/Home/Home";
-import About from "../pages/About";
 import Listings from "../pages/Listings";
+import Details from "../pages/Details";
 
 const router = createBrowserRouter([
   {
@@ -19,13 +19,13 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/about',
-    Component: About
+    path: '/listings',
+    Component: Listings
   },
 
   {
-    path: '/listings',
-    Component: Listings
+    path: '/details/:ID',
+    Component: Details
   }
 ]);
 

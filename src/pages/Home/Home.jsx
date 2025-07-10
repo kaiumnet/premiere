@@ -9,7 +9,6 @@ import featurePhoto from "../../assets/Feature.png"
 import profileImage1 from "../../assets/kaium1.png"
 import profileImage2 from "../../assets/kaium2.png"
 import { FaFileInvoiceDollar, FaHouse, FaLocationDot, FaShield } from 'react-icons/fa6';
-import Listings from '../Listings';
 import { NavLink } from 'react-router';
 
 
