@@ -55,7 +55,7 @@ const Details = () => {
             </div>
 
             <div className='flex justify-around gap-4'>
-                <div className='flex items-center gap-4 bg-orange-50 p-2 rounded-2xl'>
+                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
                     <div className='bg-blue-500 p-2 text-2xl text-amber-50 rounded-lg'>
                         <i class="fa-solid fa-city"></i>
                     </div>
@@ -65,7 +65,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center gap-4 bg-orange-50 p-2 rounded-2xl'>
+                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
                     <div className='bg-orange-400 p-2 text-white text-2xl rounded-lg'>
                         <i class="fa-solid fa-users"></i>
                     </div>
@@ -75,7 +75,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center gap-4 bg-orange-50 p-2 rounded-2xl'>
+                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
                     <div className='bg-cyan-300 p-2 text-2xl text-amber-50 rounded-lg'>
                         <i class="fa-solid fa-bed"></i>
                     </div>
@@ -85,7 +85,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center gap-4 bg-orange-50 p-2 rounded-2xl'>
+                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
                     <div className='bg-purple-900 p-2 text-2xl text-amber-50 rounded-lg'>
                         <i class="fa-solid fa-bath"></i>
                     </div>
@@ -97,9 +97,55 @@ const Details = () => {
             </div>
 
 
-<div>
-    <button>About this listing</button>
+<div className='my-10 flex justify-around'>
+    <button className='btn rounded-4xl'>ABOUT THIS LISTING</button>
+    <button className='btn rounded-4xl'>DETAILS</button>
+    <button className='btn rounded-4xl'>FEATURES</button>
+    <button className='btn rounded-4xl'>TERMS & RULES</button>
+    <button className='btn rounded-4xl'>CONTACT THE HOST</button>
 </div>
+
+
+
+<div className="flex">
+  <div className="flex-grow">
+    <details className="dropdown my-4">
+      <summary className="btn m-1">open or close</summary>
+      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
+        <p>
+          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
+        </p>
+      </ul>
+    </details>
+  </div>
+
+    <div className="flex-grow">
+    <details className="dropdown my-4">
+      <summary className="btn m-1">open or close</summary>
+      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
+        <p>
+          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
+        </p>
+      </ul>
+    </details>
+  </div>
+
+      <div className="flex-grow">
+    <details className="dropdown my-4">
+      <summary className="btn m-1">open or close</summary>
+      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
+        <p>
+          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
+        </p>
+      </ul>
+    </details>
+  </div>
+</div>
+
+
 
 
 
