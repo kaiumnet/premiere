@@ -41,8 +41,11 @@ const Listings = () => {
                       <img
                         src={item['img-url']}
                         alt={item.title}
-                        className="w-full h-48 object-cover"
+                        className="w-full h-full object-cover"
                       />
+                      <div className="absolute top-3 left-0 bg-[#d81159] text-white text-m font-bold px-3 py-2 rounded-tr-2xl rounded-bl-lg shadow-md">
+                        FOR RENT
+                      </div>
                       <div
                         className="absolute w-8/12 bottom-2 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-50 text-white font-bold p-2 flex space-x-2 rounded-2xl"
                         style={{ maxWidth: '80%', backgroundColor: 'rgba(223, 230, 233, 0.5)' }}

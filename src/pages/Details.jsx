@@ -4,6 +4,7 @@ import Footer from '../shared/Footer';
 import { useLoaderData, useParams } from 'react-router';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import Rating from './Rating';
 
 
 
@@ -22,84 +23,86 @@ const Details = () => {
         <div>
             <Navbar />
 
-            <div className="card lg:card-side bg-base-100 my-20 gap-8 max-w-10/12 mx-auto">
-                <div className='w-8/12'>
-                    <figure>
-                        <img className='rounded-2xl'
-                            src={listing["img-url"]}
-                            alt={listing.title}
-                        />
-                    </figure>
-                </div>
-                <div className="card-body shadow-xs border-1 border-gray-200 rounded-2xl">
-                    <h2 className="text-2xl">{listing.title}</h2>
-                    <p className="text-gray-600 border-b-1 border-gray-300"><i class="fa-solid fa-location-dot"></i> {listing.location}</p>
-                    <div className=''>
-                        <select className="select border-1 rounded-2xl">
-                            <option disabled={false}>Guests</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+            <section>
+                <div className="card lg:card-side bg-base-100 my-20 gap-8 max-w-10/12 mx-auto">
+                    <div className='w-8/12'>
+                        <figure>
+                            <img className='rounded-2xl'
+                                src={listing["img-url"]}
+                                alt={listing.title}
+                            />
+                        </figure>
                     </div>
-                    <div className="my-2 space-y-1">
-                        <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Beds:</span> {listing.Beds}</p>
-                        <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Bath:</span> {listing.bath}</p>
-                        <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Guests:</span> {listing.Guests}</p>
-                    </div>
-                    <div>
-                        <input className='p-2 w-full border-1 border-gray-200 rounded-lg' type="email" name="" id="" placeholder='Enter Your Email' />
-                    </div>
-                    <div className="flex justify-center items-center border-1 border-gray-200 p-2 rounded-2xl">
-                        <p className='font-bold text-lg text-blue-500'>Price: ${listing.Price}/Night</p>
-                        <button className="btn bg-amber-500 rounded-4xl">Book Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <div className='flex justify-around gap-4'>
-                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
-                    <div className='bg-blue-500 p-2 text-2xl text-amber-50 rounded-lg'>
-                        <i class="fa-solid fa-city"></i>
-                    </div>
-                    <div>
-                        <p>Type</p>
-                        <h1 className='font-bold'>Private Room / Apartment</h1>
+                    <div className="card-body shadow-xs border-1 border-gray-200 rounded-2xl">
+                        <h2 className="text-2xl">{listing.title}</h2>
+                        <p className="text-gray-600 border-b-1 border-gray-300"><i class="fa-solid fa-location-dot"></i> {listing.location}</p>
+                        <div className=''>
+                            <select className="select border-1 rounded-2xl">
+                                <option disabled={false}>Guests</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div className="my-2 space-y-1">
+                            <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Beds:</span> {listing.Beds}</p>
+                            <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Bath:</span> {listing.bath}</p>
+                            <p className='flex justify-between border-1 border-gray-200 p-2 rounded-2xl font-bold'><span>Guests:</span> {listing.Guests}</p>
+                        </div>
+                        <div>
+                            <input className='p-2 w-full border-1 border-gray-200 rounded-lg' type="email" name="" id="" placeholder='Enter Your Email' />
+                        </div>
+                        <div className="flex justify-center items-center border-1 border-gray-200 p-2 rounded-2xl">
+                            <p className='font-bold text-lg text-blue-500'>Price: ${listing.Price}/Night</p>
+                            <button className="btn bg-amber-500 rounded-4xl">Book Now</button>
+                        </div>
                     </div>
                 </div>
 
-                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
-                    <div className='bg-orange-400 p-2 text-white text-2xl rounded-lg'>
-                        <i class="fa-solid fa-users"></i>
+                <div className='flex justify-around gap-4'>
+                    <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
+                        <div className='bg-blue-500 p-2 text-2xl text-amber-50 rounded-lg'>
+                            <i class="fa-solid fa-city"></i>
+                        </div>
+                        <div>
+                            <p>Type</p>
+                            <h1 className='font-bold'>Private Room / Apartment</h1>
+                        </div>
                     </div>
-                    <div>
-                        <p>Accomodation</p>
-                        <h1 className='font-bold'>16+ Guests</h1>
-                    </div>
-                </div>
 
-                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
-                    <div className='bg-cyan-300 p-2 text-2xl text-amber-50 rounded-lg'>
-                        <i class="fa-solid fa-bed"></i>
+                    <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
+                        <div className='bg-orange-400 p-2 text-white text-2xl rounded-lg'>
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div>
+                            <p>Accomodation</p>
+                            <h1 className='font-bold'>16+ Guests</h1>
+                        </div>
                     </div>
-                    <div>
-                        <p>Bedrooms</p>
-                        <h1 className='font-bold'>6 Bedrooms / 8 Beds</h1>
-                    </div>
-                </div>
 
-                <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
-                    <div className='bg-purple-900 p-2 text-2xl text-amber-50 rounded-lg'>
-                        <i class="fa-solid fa-bath"></i>
+                    <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
+                        <div className='bg-cyan-300 p-2 text-2xl text-amber-50 rounded-lg'>
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                        <div>
+                            <p>Bedrooms</p>
+                            <h1 className='font-bold'>6 Bedrooms / 8 Beds</h1>
+                        </div>
                     </div>
-                    <div>
-                        <p>Bathrooms</p>
-                        <h1 className='font-bold'>4 Full 1 Half Baths</h1>
+
+                    <div className='flex items-center shadow-sm gap-4 bg-orange-50 p-2 rounded-2xl'>
+                        <div className='bg-purple-900 p-2 text-2xl text-amber-50 rounded-lg'>
+                            <i class="fa-solid fa-bath"></i>
+                        </div>
+                        <div>
+                            <p>Bathrooms</p>
+                            <h1 className='font-bold'>4 Full 1 Half Baths</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
 
@@ -297,24 +300,52 @@ const Details = () => {
 
 
 
-            <section className="my-10 w-10/12 mx-auto p-6 rounded-box bg-base-100 shadow">
-                <div className='flex items-center gap-4'>
+            <section className="my-10 w-10/12 mx-auto p-6 rounded-box bg-gray-100 shadow">
+                <div className='flex justify-center items-center gap-6'>
                     <h2 className="text-3xl font-bold mb-4">Availability</h2>
-                    <p><i class="fa-solid fa-calendar-days"></i>The minimum stay is 2 Nights</p>
-                    <p><i class="fa-solid fa-calendar-days"></i>The maximum stay is 365 Nights</p>
+                    <p><i className="fa-solid fa-calendar-days mx-2"></i>The minimum stay is 2 Nights</p>
+                    <p><i className="fa-solid fa-calendar-days mx-2"></i>The maximum stay is 365 Nights</p>
                 </div>
-                
-                <Calendar
-                    onChange={setDate}
-                    value={date}
-                />
-                <p className="mt-4">Selected date: {date.toDateString()}</p>
+
+                <div className="flex justify-around gap-4 w-full">
+                    <Calendar
+                        onChange={setDate}
+                        value={date}
+                        activeStartDate={new Date(2025, 6)}
+                        className="w-full md:w-[48%] p-4 rounded-lg shadow calendar-box"
+                    />
+                    <Calendar
+                        onChange={setDate}
+                        value={date}
+                        activeStartDate={new Date(2025, 7)}
+                        className="w-full md:w-[48%] p-4 rounded-lg shadow calendar-box"
+                    />
+                </div>
             </section>
 
 
 
+            <section>
+                <div className="mt-10 w-10/12 mx-auto">
+                    <h2 className="text-2xl font-bold mb-4">Location</h2>
+                    <div className="h-[500px] rounded-xl overflow-hidden shadow">
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.404589059544!2d-81.38656098465966!3d25.812779983607704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bdf7f8a43f0d%3A0x2df7d39b543017cc!2sMiami%20Design%20District!5e0!3m2!1sen!2sus!4v1689734393393!5m2!1sen!2sus"
+                            loading="lazy"
+                            allowFullScreen
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Map location"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
 
 
+
+            <Rating></Rating>
+
+        
 
 
             <Footer />

@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     path: '/details/:id',
     loader:()=>fetch('./Listing.json'),
     Component: Details
-  }
+  },
 ]);
 
 export default router;
