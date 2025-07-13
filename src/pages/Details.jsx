@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../shared/Navbar';
 import Footer from '../shared/Footer';
 import { useLoaderData, useParams } from 'react-router';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
 
 
 
 
 
 const Details = () => {
+    const [date, setDate] = useState(new Date());
+    const [activeTab, setActiveTab] = useState("ABOUT");
     const { id } = useParams();
     const data = useLoaderData();
     const listing = data.find(item => item.id === parseInt(id));
@@ -97,53 +102,216 @@ const Details = () => {
             </div>
 
 
-<div className='my-10 flex justify-around'>
-    <button className='btn rounded-4xl'>ABOUT THIS LISTING</button>
-    <button className='btn rounded-4xl'>DETAILS</button>
-    <button className='btn rounded-4xl'>FEATURES</button>
-    <button className='btn rounded-4xl'>TERMS & RULES</button>
-    <button className='btn rounded-4xl'>CONTACT THE HOST</button>
-</div>
+
+
+            <section>
+                <div className='my-10 flex justify-around flex-wrap gap-2'>
+                    <button
+                        onClick={() => setActiveTab("ABOUT")}
+                        className={`btn rounded-4xl ${activeTab === "ABOUT" ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        ABOUT THIS LISTING
+                    </button>
+                    <button
+                        onClick={() => setActiveTab("DETAILS")}
+                        className={`btn rounded-4xl ${activeTab === "DETAILS" ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        DETAILS
+                    </button>
+                    <button
+                        onClick={() => setActiveTab("FEATURES")}
+                        className={`btn rounded-4xl ${activeTab === "FEATURES" ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        FEATURES
+                    </button>
+                    <button
+                        onClick={() => setActiveTab("TERMS")}
+                        className={`btn rounded-4xl ${activeTab === "TERMS" ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        TERMS & RULES
+                    </button>
+                    <button
+                        onClick={() => setActiveTab("CONTACT")}
+                        className={`btn rounded-4xl ${activeTab === "CONTACT" ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        CONTACT THE HOST
+                    </button>
+                </div>
 
 
 
-<div className="flex">
-  <div className="flex-grow">
-    <details className="dropdown my-4">
-      <summary className="btn m-1">open or close</summary>
-      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
-        <p>
-          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
-          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
-        </p>
-      </ul>
-    </details>
-  </div>
+                <div className="bg-base-100 w-10/12 mx-auto rounded-box p-6">
+                    {activeTab === "ABOUT" && (
 
-    <div className="flex-grow">
-    <details className="dropdown my-4">
-      <summary className="btn m-1">open or close</summary>
-      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
-        <p>
-          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
-          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
-        </p>
-      </ul>
-    </details>
-  </div>
+                        <div>
+                            <h1 className='text-3xl font-bold border-b-1 border-gray-200 py-4'>
+                                About this listing
+                            </h1>
 
-      <div className="flex-grow">
-    <details className="dropdown my-4">
-      <summary className="btn m-1">open or close</summary>
-      <ul className="menu bg-base-100 rounded-box w-full p-4 mt-2">
-        <p>
-          Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
-          Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris...
-        </p>
-      </ul>
-    </details>
-  </div>
-</div>
+                            <h3 className='text-2xl font-bold my-4'>About this space</h3>
+
+
+                            <p>
+                                Enjoy a stylish experience at this centrally-located place in Miami’s Design District/Wynwood. Each side has 3BR/2.5BA (6 bdrms, 4 baths, 2 half baths)with an amazing heated pool. Ideal for large gatherings. Pick your side! Located just a short walk away from the Design District Shops, Wynwood and Midtown Miami Restaurants and Nightlife.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>The space</h3>
+
+                            <p>
+                                Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+                                <br />
+                                <br />
+                                Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris. Guest acknowledges that in order to remove odor caused by smoking, the Host may need to replace blinds, drapes and paint the interior walls regardless of when these items were last cleaned, replaced, or repainted.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>Guest access</h3>
+                            <p>
+                                Upon request: Outside guests are more than welcome to come join you to enjoy the property, backyard/ pool area for small get togethers.
+                                Upon checkout: please leave gate key/opener on the glass table at the entryway. Failure to do so will result in a $100 replacement fee.
+                            </p>
+
+
+                        </div>
+                    )}
+
+                    {activeTab === "DETAILS" && (
+                        <div>
+                            <h1 className='text-3xl font-bold border-b-1 border-gray-200 py-4'>
+                                DETAILS
+                            </h1>
+
+                            <h3 className='text-2xl font-bold my-4'>DETAILS</h3>
+
+
+                            <p>
+                                Enjoy a stylish experience at this centrally-located place in Miami’s Design District/Wynwood. Each side has 3BR/2.5BA (6 bdrms, 4 baths, 2 half baths)with an amazing heated pool. Ideal for large gatherings. Pick your side! Located just a short walk away from the Design District Shops, Wynwood and Midtown Miami Restaurants and Nightlife.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>DETAILS</h3>
+
+                            <p>
+                                Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+                                <br />
+                                <br />
+                                Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris. Guest acknowledges that in order to remove odor caused by smoking, the Host may need to replace blinds, drapes and paint the interior walls regardless of when these items were last cleaned, replaced, or repainted.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>DETAILS</h3>
+                            <p>
+                                Upon request: Outside guests are more than welcome to come join you to enjoy the property, backyard/ pool area for small get togethers.
+                                Upon checkout: please leave gate key/opener on the glass table at the entryway. Failure to do so will result in a $100 replacement fee.
+                            </p>
+
+
+                        </div>
+                    )}
+
+                    {activeTab === "FEATURES" && (
+                        <div>
+                            <h1 className='text-3xl font-bold border-b-1 border-gray-200 py-4'>
+                                FEATURES
+                            </h1>
+
+                            <h3 className='text-2xl font-bold my-4'>FEATURES</h3>
+
+
+                            <p>
+                                Enjoy a stylish experience at this centrally-located place in Miami’s Design District/Wynwood. Each side has 3BR/2.5BA (6 bdrms, 4 baths, 2 half baths)with an amazing heated pool. Ideal for large gatherings. Pick your side! Located just a short walk away from the Design District Shops, Wynwood and Midtown Miami Restaurants and Nightlife.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>FEATURES</h3>
+
+                            <p>
+                                Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+                                <br />
+                                <br />
+                                Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris. Guest acknowledges that in order to remove odor caused by smoking, the Host may need to replace blinds, drapes and paint the interior walls regardless of when these items were last cleaned, replaced, or repainted.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>FEATURES</h3>
+                            <p>
+                                Upon request: Outside guests are more than welcome to come join you to enjoy the property, backyard/ pool area for small get togethers.
+                                Upon checkout: please leave gate key/opener on the glass table at the entryway. Failure to do so will result in a $100 replacement fee.
+                            </p>
+
+
+                        </div>
+                    )}
+
+                    {activeTab === "TERMS" && (
+                        <div>
+                            <h1 className='text-3xl font-bold border-b-1 border-gray-200 py-4'>
+                                Terms & rules
+                            </h1>
+
+                            <h3 className='text-2xl font-bold my-4'>Terms & rules</h3>
+
+
+                            <p>
+                                Enjoy a stylish experience at this centrally-located place in Miami’s Design District/Wynwood. Each side has 3BR/2.5BA (6 bdrms, 4 baths, 2 half baths)with an amazing heated pool. Ideal for large gatherings. Pick your side! Located just a short walk away from the Design District Shops, Wynwood and Midtown Miami Restaurants and Nightlife.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>Terms & rules</h3>
+
+                            <p>
+                                Feel Free to Come and Go as you please. We have 2 awesome Grills to throw a BBQ and will provide any assistance to help you have the Miami Vacation of your dreams!
+                                <br />
+                                <br />
+                                Smoking is allowed outside only. Smoking of any substance is not allowed in the apartment. Guest will be held responsible for all damage caused by the smoking including, but not limited to, stains, burns, odors, and removal of debris. Guest acknowledges that in order to remove odor caused by smoking, the Host may need to replace blinds, drapes and paint the interior walls regardless of when these items were last cleaned, replaced, or repainted.
+                            </p>
+
+                            <h3 className='text-2xl font-bold my-3'>Terms & rules</h3>
+                            <p>
+                                Upon request: Outside guests are more than welcome to come join you to enjoy the property, backyard/ pool area for small get togethers.
+                                Upon checkout: please leave gate key/opener on the glass table at the entryway. Failure to do so will result in a $100 replacement fee.
+                            </p>
+
+
+                        </div>
+                    )}
+
+                    {activeTab === "CONTACT" && (
+                        <div>
+                            <h1 className='text-3xl font-bold border-b-1 border-gray-200 py-4'>
+                                Contact the host
+                            </h1>
+
+                            <h3 className='text-2xl font-bold my-4'>Contact the host</h3>
+
+
+                            <p>
+                                Phone: (123) 767-2068
+                                <br />
+                                <br />
+                                Email : imfo@premierestaysmiami.com
+                                <br />
+                                <br />
+                                #1 Darling Street, St. Thomas Village, Chaguanas, Trinidad &
+                            </p>
+
+
+                        </div>
+                    )}
+                </div>
+            </section>
+
+
+
+            <section className="my-10 w-10/12 mx-auto p-6 rounded-box bg-base-100 shadow">
+                <div className='flex items-center gap-4'>
+                    <h2 className="text-3xl font-bold mb-4">Availability</h2>
+                    <p><i class="fa-solid fa-calendar-days"></i>The minimum stay is 2 Nights</p>
+                    <p><i class="fa-solid fa-calendar-days"></i>The maximum stay is 365 Nights</p>
+                </div>
+                
+                <Calendar
+                    onChange={setDate}
+                    value={date}
+                />
+                <p className="mt-4">Selected date: {date.toDateString()}</p>
+            </section>
+
+
 
 
 
